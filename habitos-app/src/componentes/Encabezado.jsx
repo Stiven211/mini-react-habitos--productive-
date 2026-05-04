@@ -1,10 +1,10 @@
 import './Encabezado.css'
 
-function Encabezado() {
+function Encabezado({ titulo, subtitulo }) {
   return (
-    <header>
-      <h1>Mis Hábitos</h1>
-      <p>Construye tu mejor versión un día a la vez</p>
+    <header className="encabezado">
+      <h1>{titulo}</h1>
+      <p>{subtitulo}</p>
     </header>
   )
 }

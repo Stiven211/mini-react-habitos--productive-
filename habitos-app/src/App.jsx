@@ -6,12 +6,22 @@ import PiePagina from './componentes/PiePagina'
 import './App.css'
 
 function App() {
+  const habitoEjemplo = {
+    id: 1,
+    nombre: "Leer 20 páginas",
+    hechoHoy: true,
+    racha: 12
+  }
+
   return (
     <div className="app">
-      <Encabezado />
+      <Encabezado 
+        titulo="Mis Hábitos" 
+        subtitulo="Construye tu mejor versión un día a la vez" 
+      />
       <Formulario />
       <Lista />
-      <Item />
+      <Item habito={habitoEjemplo} />
       <PiePagina />
     </div>
   )
