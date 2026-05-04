@@ -1,13 +1,18 @@
-// src/App.jsx
+import Encabezado from './componentes/Encabezado'
+import Formulario from './componentes/Formulario'
+import Lista from './componentes/Lista'
+import Item from './componentes/Item'
+import PiePagina from './componentes/PiePagina'
 import './App.css'
 
 function App() {
-  const tituloProyecto = "Mis Hábitos"
-
   return (
     <div className="app">
-      <h1>{tituloProyecto}</h1>
-      <p>Construye tu mejor versión un día a la vez</p>
+      <Encabezado />
+      <Formulario />
+      <Lista />
+      <Item />
+      <PiePagina />
     </div>
   )
 }
