@@ -1,0 +1,20 @@
+.encabezado {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 20px rgba(79, 172, 254, 0.3);
+}
+
+.encabezado h1 {
+  margin: 0 0 12px 0;
+  font-size: 2.5rem;
+}
+
+.encabezado p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
