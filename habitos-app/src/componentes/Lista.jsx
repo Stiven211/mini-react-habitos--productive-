@@ -1,8 +1,12 @@
-function Lista() {
+import Item from './Item'
+
+function Lista({ habitos }) {
   return (
-    <section>
-      <h2>Soy la lista</h2>
-      <p>Aquí se verán todos los hábitos</p>
+    <section className="lista">
+      <h2>Mis Hábitos ({habitos.length})</h2>
+      {habitos.map(habito => (
+        <Item key={habito.id} habito={habito} />
+      ))}
     </section>
   )
 }
