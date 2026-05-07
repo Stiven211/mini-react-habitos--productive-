@@ -6,9 +6,34 @@ import './App.css'
 
 function App() {
   const habitos = [
-    { id: 1, nombre: "Leer 20 páginas", hechoHoy: true, racha: 12 },
-    { id: 2, nombre: "Hacer ejercicio 30 min", hechoHoy: false, racha: 5 },
-    { id: 3, nombre: "Meditar 10 minutos", hechoHoy: true, racha: 8 },
+    { 
+      id: 1, 
+      nombre: "Leer 20 páginas", 
+      hechoHoy: true, 
+      racha: 12,
+      icono: "📖" 
+    },
+    { 
+      id: 2, 
+      nombre: "Hacer ejercicio 30 min", 
+      hechoHoy: false, 
+      racha: 5,
+      icono: "🏋️" 
+    },
+    { 
+      id: 3, 
+      nombre: "Meditar 10 minutos", 
+      hechoHoy: true, 
+      racha: 8,
+      icono: "🧘" 
+    },
+    { 
+      id: 4, 
+      nombre: "Beber 2 litros de agua", 
+      hechoHoy: false, 
+      racha: 3,
+      icono: "💧" 
+    }
   ]
 
   return (
