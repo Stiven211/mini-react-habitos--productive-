@@ -57,3 +57,23 @@
   background-color: #ef4444;
   color: white;
 }
+.item {
+  cursor: pointer;
+}
+
+.btn-estado {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-estado:hover {
+  transform: scale(1.05);
+}
+
+.resaltado {
+  box-shadow: 0 0 0 3px #4facfe;
+}
