@@ -1,60 +1,45 @@
 .formulario {
-  background: white;
-  padding: 28px;
-  border-radius: 16px;
-  margin-bottom: 30px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  padding: 24px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .formulario h2 {
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
   color: #1f2937;
-  font-size: 1.5rem;
 }
 
-.formulario-inputs {
-  display: flex;
-  gap: 12px;
+.formulario input {
+  width: 100%;
   max-width: 500px;
-  margin: 0 auto;
-}
-
-.input-habito {
-  flex: 1;
-  padding: 14px 16px;
+  padding: 14px;
   font-size: 1.05rem;
   border: 2px solid #e5e7eb;
-  border-radius: 10px;
-  outline: none;
-  transition: all 0.3s;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
 }
 
-.input-habito:focus {
+.formulario input:focus {
+  outline: none;
   border-color: #4facfe;
   box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.2);
 }
 
-.btn-agregar {
-  padding: 14px 24px;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+.formulario button {
+  background-color: #1F3864;
   color: white;
   border: none;
-  border-radius: 10px;
+  padding: 14px 28px;
+  border-radius: 8px;
   font-size: 1.05rem;
-  font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s;
-  white-space: nowrap;
+  font-weight: bold;
 }
 
-.btn-agregar:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 15px rgba(79, 172, 254, 0.4);
-}
-
-.formulario-nota {
-  margin-top: 16px;
-  color: #6b7280;
-  font-size: 0.9rem;
+.formulario button:hover {
+  background-color: #162a4d;
 }
